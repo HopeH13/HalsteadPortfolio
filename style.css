@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: 'Sono', sans-serif;
     background-color: #cccccc;
+    opacity: 0;
+    transition: opacity 3s;
 }
 p {
     line-height: 2;
