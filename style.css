@@ -6,6 +6,13 @@ body {
     opacity: 0;
     transition: opacity 3s;
 }
+
+@media (max-width: 700px) {
+    .top-container,  .bottom-container,.btn,  .skill-row
+     { flex-direction: column;
+}
+  }
+
 p {
     line-height: 2;
     font-size: 1.2rem;
@@ -162,7 +169,7 @@ a:hover {
     background-color: #293039;
 }
 .fa {
-    font-size: 4rem;
+    font-size: 6rem;
     color:rgb(231, 191, 231);
 }
 
@@ -182,6 +189,8 @@ a:hover {
     padding: 10px 15px 10px 15px;
     text-decoration: none;
 }
+
+    
 
 .btn:hover {
     background: #3a0741;
